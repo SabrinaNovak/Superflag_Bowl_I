@@ -1,0 +1,40 @@
+[
+    {
+        "name": "novak/flagpackage",
+        "version": "v1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SabrinaNovak/Flags.git",
+            "reference": "01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SabrinaNovak/Flags/zipball/01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e",
+            "reference": "01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e",
+            "shasum": ""
+        },
+        "time": "2017-12-18T18:09:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "HTL3R\\Flags\\": "src/HTL3R/Flags/"
+            }
+        },
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Sabrina Novak",
+                "email": "nosabrina@icloud.com"
+            }
+        ],
+        "description": "4AI Flagpackage for use with the 4AI Demo",
+        "support": {
+            "source": "https://github.com/SabrinaNovak/Flags/tree/v1.1",
+            "issues": "https://github.com/SabrinaNovak/Flags/issues"
+        }
+    }
+]
