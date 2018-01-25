@@ -19,7 +19,7 @@
         return response.json()
     }
 
-    fetch('flags.php')
+    fetch('flags.php?mode=json')
         .then(status)
         .then(json)
         .then(function (data) {

@@ -36,5 +36,46 @@
             "source": "https://github.com/SabrinaNovak/Flags/tree/v1.1",
             "issues": "https://github.com/SabrinaNovak/Flags/issues"
         }
+    },
+    {
+        "name": "typo3fluid/fluid",
+        "version": "2.4.0",
+        "version_normalized": "2.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TYPO3/Fluid.git",
+            "reference": "f583badd3b2a90f046fe5c1e0459300325a3e0ce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TYPO3/Fluid/zipball/f583badd3b2a90f046fe5c1e0459300325a3e0ce",
+            "reference": "f583badd3b2a90f046fe5c1e0459300325a3e0ce",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "mikey179/vfsstream": "^1.6",
+            "phpunit/phpunit": "^4.8",
+            "satooshi/php-coveralls": "^1.0",
+            "squizlabs/php_codesniffer": "^2.7"
+        },
+        "time": "2017-08-25T10:10:42+00:00",
+        "bin": [
+            "bin/fluid"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TYPO3Fluid\\Fluid\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0"
+        ],
+        "description": "The TYPO3 Fluid template rendering engine"
     }
 ]

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e2a9819a9639cb9473f2685a9c1b131",
+    "content-hash": "c40f0973aa1a55734a8f0c1cae8768a2",
     "packages": [
         {
             "name": "novak/flagpackage",
@@ -41,6 +41,45 @@
                 "issues": "https://github.com/SabrinaNovak/Flags/issues"
             },
             "time": "2017-12-18T18:09:39+00:00"
+        },
+        {
+            "name": "typo3fluid/fluid",
+            "version": "2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TYPO3/Fluid.git",
+                "reference": "f583badd3b2a90f046fe5c1e0459300325a3e0ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TYPO3/Fluid/zipball/f583badd3b2a90f046fe5c1e0459300325a3e0ce",
+                "reference": "f583badd3b2a90f046fe5c1e0459300325a3e0ce",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^4.8",
+                "satooshi/php-coveralls": "^1.0",
+                "squizlabs/php_codesniffer": "^2.7"
+            },
+            "bin": [
+                "bin/fluid"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TYPO3Fluid\\Fluid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "The TYPO3 Fluid template rendering engine",
+            "time": "2017-08-25T10:10:42+00:00"
         }
     ],
     "packages-dev": [],

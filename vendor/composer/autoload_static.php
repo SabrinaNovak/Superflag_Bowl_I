@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit687a2b204f0a035f525616edbe47460e
 {
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'TYPO3Fluid\\Fluid\\' => 17,
+        ),
         'H' => 
         array (
             'HTL3R\\Flags\\' => 12,
@@ -14,6 +18,10 @@ class ComposerStaticInit687a2b204f0a035f525616edbe47460e
     );
 
     public static $prefixDirsPsr4 = array (
+        'TYPO3Fluid\\Fluid\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/typo3fluid/fluid/src',
+        ),
         'HTL3R\\Flags\\' => 
         array (
             0 => __DIR__ . '/..' . '/novak/flagpackage/src/HTL3R/Flags',

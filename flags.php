@@ -11,8 +11,6 @@ $myFlags[] = new RectangleFlag("England", 24.5, 2.0, 0.5, "#F00");
 $myFlags[] = new TriangleFlag("Barbados Pirates", 32.5, 4.0, 0.2, "#00F");
 $myFlags[] = new RectangleFlag("Spanien", 20.5, 2.0, 0.5, "#F0F");
 
-header('Content-Type: application/json');
-
 // because flag properties are protected - this next step is necessary
 foreach ($myFlags as $flag) {
     $flagSortiment[] = [
@@ -24,4 +22,21 @@ foreach ($myFlags as $flag) {
     ];
 }
 
-die(json_encode($flagSortiment));
+if(isset($_GET["mode"]) && !empty($_GET["mode"]) && $_GET["mode"] == "json"){
+    header('Content-Type: application/json');
+    die(json_encode($flagSortiment));
+}
+
+
+$view = new \TYPO3Fluid\Fluid\View\TemplateView();
+$paths = $view->getTemplatePaths();
+$paths->setTemplatePathAndFilename(__DIR__ . '/templates/flag-template.html');
+
+$view->assignMultiple(
+    array(
+        "Flags" => $flagSortiment
+    )
+);
+
+$output = $view->render();
+echo $output;

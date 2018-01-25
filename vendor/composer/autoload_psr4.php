@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'TYPO3Fluid\\Fluid\\' => array($vendorDir . '/typo3fluid/fluid/src'),
     'HTL3R\\Flags\\' => array($vendorDir . '/novak/flagpackage/src/HTL3R/Flags'),
 );

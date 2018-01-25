@@ -1,0 +1,27 @@
+{
+	"name": "typo3fluid/fluid",
+	"description": "The TYPO3 Fluid template rendering engine",
+	"license": ["LGPL-3.0"],
+	"require": {
+		"php": ">=5.5.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^4.8",
+		"mikey179/vfsStream": "^1.6",
+		"satooshi/php-coveralls": "^1.0",
+		"squizlabs/php_codesniffer": "^2.7"
+	},
+	"autoload": {
+		"psr-4": {
+			"TYPO3Fluid\\Fluid\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"TYPO3Fluid\\Fluid\\Tests\\": "tests/"
+		}
+	},
+	"bin": [
+		"bin/fluid"
+	]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superflag Bowl I</title>
+</head>
+<body>
+<h1>The Legends of Superflag Bowl I</h1>
+<ul>
+    <f:for each="{Flags}" as="Flag">
+        <header>
+            <h2>{Flag.name}</h2>
+        </header>
+        <ul>
+            <li><strong>Price:</strong> {Flag.price}</li>
+            <li><strong>Width:</strong> {Flag.width}</li>
+            <li><strong>Height:</strong> {Flag.height}</li>
+            <li><strong>Color:</strong> {Flag.color}</li>
+        </ul>
+        <hr>
+    </f:for>
+</ul>
+</body>
+</html>
