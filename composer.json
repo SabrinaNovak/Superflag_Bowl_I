@@ -1,0 +1,19 @@
+{
+    "name": "htl3r/ajaxue",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sabrina Novak",
+            "email": "nosabrina@icloud.com"
+        }
+    ],
+    "require": {
+        "novak/flagpackage": "v1.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SabrinaNovak/Flags"
+        }
+    ]
+}
