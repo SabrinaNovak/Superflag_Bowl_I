@@ -4,20 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "c40f0973aa1a55734a8f0c1cae8768a2",
+    "content-hash": "8b8064f0e2f5229aed24600698e54465",
     "packages": [
         {
-            "name": "novak/flagpackage",
-            "version": "v1.1",
+            "name": "components/flag-icon-css",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/SabrinaNovak/Flags.git",
-                "reference": "01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e"
+                "url": "https://github.com/lipis/flag-icon-css.git",
+                "reference": "b3f81d10556e007c460444ec22489e68520eb79d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SabrinaNovak/Flags/zipball/01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e",
-                "reference": "01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e",
+                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/b3f81d10556e007c460444ec22489e68520eb79d",
+                "reference": "b3f81d10556e007c460444ec22489e68520eb79d",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "name": "flag-icon-css",
+                    "files": [
+                        "less/**",
+                        "css/**",
+                        "flags/**"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Panayiotis Lipiridis (Lipis)",
+                    "email": "lipiridis@gmail.com"
+                }
+            ],
+            "description": "CSS for vector based country flags",
+            "time": "2017-11-16T15:46:30+00:00"
+        },
+        {
+            "name": "novak/flagpackage",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SabrinaNovak/Flags.git",
+                "reference": "03e4581dfd67af7d15403ef08df10072ad276384"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SabrinaNovak/Flags/zipball/03e4581dfd67af7d15403ef08df10072ad276384",
+                "reference": "03e4581dfd67af7d15403ef08df10072ad276384",
                 "shasum": ""
             },
             "type": "library",
@@ -37,10 +75,10 @@
             ],
             "description": "4AI Flagpackage for use with the 4AI Demo",
             "support": {
-                "source": "https://github.com/SabrinaNovak/Flags/tree/v1.1",
+                "source": "https://github.com/SabrinaNovak/Flags/tree/master",
                 "issues": "https://github.com/SabrinaNovak/Flags/issues"
             },
-            "time": "2017-12-18T18:09:39+00:00"
+            "time": "2018-01-26T00:13:36+00:00"
         },
         {
             "name": "typo3fluid/fluid",

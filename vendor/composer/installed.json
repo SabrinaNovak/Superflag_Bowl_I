@@ -1,43 +1,5 @@
 [
     {
-        "name": "novak/flagpackage",
-        "version": "v1.1",
-        "version_normalized": "1.1.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/SabrinaNovak/Flags.git",
-            "reference": "01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/SabrinaNovak/Flags/zipball/01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e",
-            "reference": "01e3f2bebfbd2d4c49d6687764e6b9d4a3a96f9e",
-            "shasum": ""
-        },
-        "time": "2017-12-18T18:09:39+00:00",
-        "type": "library",
-        "installation-source": "dist",
-        "autoload": {
-            "psr-4": {
-                "HTL3R\\Flags\\": "src/HTL3R/Flags/"
-            }
-        },
-        "license": [
-            "GPL"
-        ],
-        "authors": [
-            {
-                "name": "Sabrina Novak",
-                "email": "nosabrina@icloud.com"
-            }
-        ],
-        "description": "4AI Flagpackage for use with the 4AI Demo",
-        "support": {
-            "source": "https://github.com/SabrinaNovak/Flags/tree/v1.1",
-            "issues": "https://github.com/SabrinaNovak/Flags/issues"
-        }
-    },
-    {
         "name": "typo3fluid/fluid",
         "version": "2.4.0",
         "version_normalized": "2.4.0.0",
@@ -77,5 +39,83 @@
             "LGPL-3.0"
         ],
         "description": "The TYPO3 Fluid template rendering engine"
+    },
+    {
+        "name": "components/flag-icon-css",
+        "version": "2.9.0",
+        "version_normalized": "2.9.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lipis/flag-icon-css.git",
+            "reference": "b3f81d10556e007c460444ec22489e68520eb79d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/b3f81d10556e007c460444ec22489e68520eb79d",
+            "reference": "b3f81d10556e007c460444ec22489e68520eb79d",
+            "shasum": ""
+        },
+        "time": "2017-11-16T15:46:30+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "name": "flag-icon-css",
+                "files": [
+                    "less/**",
+                    "css/**",
+                    "flags/**"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Panayiotis Lipiridis (Lipis)",
+                "email": "lipiridis@gmail.com"
+            }
+        ],
+        "description": "CSS for vector based country flags"
+    },
+    {
+        "name": "novak/flagpackage",
+        "version": "v1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SabrinaNovak/Flags.git",
+            "reference": "03e4581dfd67af7d15403ef08df10072ad276384"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SabrinaNovak/Flags/zipball/03e4581dfd67af7d15403ef08df10072ad276384",
+            "reference": "03e4581dfd67af7d15403ef08df10072ad276384",
+            "shasum": ""
+        },
+        "time": "2018-01-26T00:13:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "HTL3R\\Flags\\": "src/HTL3R/Flags/"
+            }
+        },
+        "license": [
+            "GPL"
+        ],
+        "authors": [
+            {
+                "name": "Sabrina Novak",
+                "email": "nosabrina@icloud.com"
+            }
+        ],
+        "description": "4AI Flagpackage for use with the 4AI Demo",
+        "support": {
+            "source": "https://github.com/SabrinaNovak/Flags/tree/master",
+            "issues": "https://github.com/SabrinaNovak/Flags/issues"
+        }
     }
 ]

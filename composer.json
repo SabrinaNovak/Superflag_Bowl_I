@@ -8,8 +8,9 @@
         }
     ],
     "require": {
-        "novak/flagpackage": "v1.1",
-        "typo3fluid/fluid": "^2.4"
+        "typo3fluid/fluid": "^2.4",
+        "components/flag-icon-css": "^2.9",
+        "novak/flagpackage": "v1.2"
     },
     "repositories": [
         {
