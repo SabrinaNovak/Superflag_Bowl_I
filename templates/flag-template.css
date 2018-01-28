@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h1, footer {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2.5px;
+    word-spacing: 5px;
+    padding: 30px;
+    margin: 0;
+    font-size: 48px;
+    color: #ffffff;
+    text-shadow: #CFD8DC;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(133, 133, 133, 0.2);
+    margin-top: 0;
+    text-shadow: 1px 1px #212121;
+}
+
+header, footer {
+    background-color: #212121;
+    text-align: center;
+    font-size: 16px;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+ul div {
+    flex: 1;
+}
+
+ul div li {
+    display: block;
+    line-height: 1.5em;
+}
+
+strong {
+    display: inline-block;
+    width: 100px;
+    line-height: 20px;
+    text-shadow: 1px 1px #CFD8DC;
+}
+
+.flag-icon {
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

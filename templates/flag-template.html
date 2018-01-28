@@ -3,32 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Superflag Bowl I</title>
-    <style type="text/css">
-        .flag-icon-background{
-            background-size: contain;
-            background-position: 50%;
-            background-repeat: no-repeat;
-        }
-    </style>
+    <link type="text/css" rel="stylesheet" href="vendor/components/flag-icon-css/css/flag-icon.min.css">
+    <link type="text/css" rel="stylesheet" href="templates/flag-template.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
 </head>
 <body>
-<h1>The Legends of Superflag Bowl I</h1>
-<ul>
+<header>
+    <h1>The Legends of Superflag Bowl I</h1>
+    <span id="sub-head"></span>
+</header>
+<main>
     <f:for each="{Flags}" as="Flag">
-        <header>
-            <h2>{Flag.name}</h2>
-        </header>
+        <h2>{Flag.name}</h2>
         <ul>
-            <li><strong>Price:</strong> {Flag.price}</li>
-            <li><strong>Width:</strong> {Flag.width}</li>
-            <li><strong>Height:</strong> {Flag.height}</li>
-            <li><strong>Color:</strong> {Flag.color}</li>
-            <li><strong>Language Code:</strong><br>
-                <span class="flag-icon flag-icon-gr flag-icon-squared"></span>
-            </li>
+            <div>
+                <li><strong>Price:</strong> {Flag.price}</li>
+                <li><strong>Width:</strong> {Flag.width}</li>
+                <li><strong>Height:</strong> {Flag.height}</li>
+                <li><strong>Color:</strong> {Flag.color}</li>
+            </div>
+            <div>
+                <li>
+                    <span class="flag-icon flag-icon-{Flag.langcode}"
+                          style="margin-right: 0; margin-left: auto; display: block;"></span>
+                </li>
+            </div>
         </ul>
         <hr>
     </f:for>
-</ul>
+</main>
 </body>
+<footer>
+    <small>https://github.com/SabrinaNovak/Superflag_Bowl_I</small>
+</footer>
 </html>

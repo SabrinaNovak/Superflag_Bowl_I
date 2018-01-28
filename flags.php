@@ -19,7 +19,7 @@ foreach ($myFlags as $flag) {
         "width" => $flag->getWidth(),
         "height" => $flag->getHeight(),
         "color" => $flag->getColor(),
-        "langcode" => $flag->getLangcode()
+        "langcode" => strtolower($flag->getLangcode())
     ];
 }
 
